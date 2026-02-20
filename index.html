@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gizlilik Politikası - Başaran</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        line-height: 1.6;
+        color: #111;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      h1, h2, h3 { line-height: 1.3; }
+      h1 { margin-bottom: 8px; }
+      .meta { color: #555; margin-bottom: 24px; }
+      ul { padding-left: 20px; }
+      .note { background: #f7f7f7; border: 1px solid #e6e6e6; padding: 12px; border-radius: 8px; }
+      a { color: #0a66c2; }
+    </style>
+  </head>
+  <body>
+    <h1>Gizlilik Politikası</h1>
+    <p class="meta"><strong>Son güncelleme:</strong> 20 Şubat 2026</p>
+
+    <p>
+      Bu Gizlilik Politikası, Başaran mobil uygulamasını (“Uygulama”) kullandığınızda hangi kişisel verilerin
+      işlendiğini, bu verilerin hangi amaçlarla kullanıldığını, kimlerle paylaşıldığını ve haklarınızı açıklar.
+    </p>
+
+    <p class="note">
+      <strong>Yayınlamadan önce doldurulması gereken alanlar:</strong><br />
+      Veri sorumlusu unvanı, açık adres ve iletişim e-posta/adresi bilgilerini kendi resmi bilgilerinizle güncelleyin.
+    </p>
+
+    <h2>1. Veri Sorumlusu</h2>
+    <p>
+      Veri sorumlusu: <strong>[Şirket/İşletme Adı]</strong><br />
+      Adres: <strong>[Açık Adres]</strong><br />
+      E-posta: <strong>[Destek E-postası]</strong>
+    </p>
+
+    <h2>2. Toplanan Veriler</h2>
+
+    <h3>2.1 Hesap ve Kimlik Verileri</h3>
+    <ul>
+      <li>E-posta ve parola ile girişte e-posta adresi</li>
+      <li>Telefonla giriş/doğrulamada telefon numarası (SMS doğrulama)</li>
+      <li>Google/Apple ile girişte ilgili sağlayıcılardan gelen kimlik doğrulama verileri (ör. e-posta, temel profil bilgileri)</li>
+      <li>Firebase kullanıcı kimliği (UID)</li>
+    </ul>
+
+    <h3>2.2 Profil Verileri</h3>
+    <ul>
+      <li>Kullanıcı adı, kullanıcı adı anahtarı, biyografi, avatar seçimi</li>
+      <li>Telefon numarası (E.164 formatı), üyelik kontrol sonucu (isMemberBasaran), üyelik kontrol zamanı</li>
+      <li>Rol bilgisi (admin/fenomen/kullanıcı), ban durumu ve ban gerekçesi (uygulanırsa)</li>
+    </ul>
+
+    <h3>2.3 Kullanım ve İçerik Verileri</h3>
+    <ul>
+      <li>Paylaşılan kupon bilgileri (kupon kodu, başlık/açıklama, maç/oran kalemleri, durum bilgileri)</li>
+      <li>Takip/like etkileşimleri, bildirim kayıtları</li>
+      <li>Geri bildirim formuna yazdığınız metinler</li>
+      <li>Haber içerikleri (admin tarafından oluşturulan metin/görsel içerikler)</li>
+    </ul>
+
+    <h3>2.4 Cihaz ve Teknik Veriler</h3>
+    <ul>
+      <li>Push bildirim token’ı (Expo push token), platform bilgisi (iOS/Android)</li>
+      <li>Uygulama içi yerel saklama verileri (oturum, tema tercihi, push token önbelleği)</li>
+      <li>Hata/operasyon logları (teknik teşhis amacıyla sınırlı kapsamda)</li>
+    </ul>
+
+    <h2>3. Verileri İşleme Amaçlarımız</h2>
+    <ul>
+      <li>Hesap oluşturma, giriş ve kimlik doğrulama süreçlerini yürütmek</li>
+      <li>Profilinizi oluşturmak ve topluluk özelliklerini sağlamak</li>
+      <li>Kupon paylaşımı, görüntüleme, etkileşim ve bildirim akışlarını sunmak</li>
+      <li>Spam/istismar önleme, güvenlik ve moderasyon süreçlerini yürütmek</li>
+      <li>Uygulama performansını, sürekliliğini ve hata yönetimini sağlamak</li>
+      <li>Kullanıcı geri bildirimlerini değerlendirmek</li>
+    </ul>
+
+    <h2>4. Üçüncü Taraflar ve Veri Paylaşımı</h2>
+    <p>Uygulama işlevleri kapsamında veriler aşağıdaki hizmet sağlayıcılarla paylaşılabilir:</p>
+    <ul>
+      <li><strong>Google Firebase</strong> (Authentication, Firestore, Cloud Functions, Storage)</li>
+      <li><strong>Expo</strong> (Push bildirim altyapısı)</li>
+      <li><strong>Apple / Google</strong> (Sosyal giriş kimlik doğrulama sağlayıcıları)</li>
+      <li><strong>İddaa kupon servisleri</strong> (kupon sonuç/validasyon amaçlı dış API çağrıları)</li>
+      <li><strong>Harici üyelik doğrulama verisi</strong> (telefon numarası üzerinden üyelik durum kontrolü)</li>
+      <li>Yetkili kamu kurum ve kuruluşları (yasal zorunluluk halinde)</li>
+    </ul>
+
+    <h2>5. Veri Saklama Süreleri</h2>
+    <ul>
+      <li>Hesap ve profil verileri, hesabınız aktif olduğu sürece saklanır.</li>
+      <li>İçerik ve etkileşim verileri, hizmetin işletimi ve topluluk bütünlüğü için gerekli süre boyunca saklanır.</li>
+      <li>Push token’ları ve teknik kayıtlar, güvenlik/operasyon ihtiyacı oldukça güncellenir veya silinir.</li>
+      <li>Yasal yükümlülükler gerektiriyorsa belirli veriler daha uzun süre saklanabilir.</li>
+    </ul>
+
+    <h2>6. Uluslararası Veri Aktarımı</h2>
+    <p>
+      Kullanılan bulut servisleri nedeniyle veriler, bulunduğunuz ülke dışındaki sunucularda işlenebilir.
+      Bu durumda ilgili hizmet sağlayıcıların sunduğu sözleşmesel ve teknik koruma mekanizmaları uygulanır.
+    </p>
+
+    <h2>7. Güvenlik</h2>
+    <p>
+      Verilerinizi korumak için erişim kontrolü, kimlik doğrulama, kural tabanlı yetkilendirme ve teknik güvenlik
+      önlemleri uygulanır. Buna rağmen internet üzerinden hiçbir aktarım yöntemi %100 güvenli değildir.
+    </p>
+
+    <h2>8. Haklarınız</h2>
+    <p>
+      Uygulanabilir mevzuata (KVKK/GDPR dahil) göre; verilerinize erişim, düzeltme, silme, işleme itiraz etme,
+      işlemeyi kısıtlama ve veri taşınabilirliği gibi haklara sahip olabilirsiniz.
+    </p>
+    <p>
+      Bu hakları kullanmak için bizimle iletişime geçebilirsiniz:
+      <strong>[Destek E-postası]</strong>
+    </p>
+
+    <h2>9. Çocukların Gizliliği</h2>
+    <p>
+      Uygulama çocuklara yönelik değildir. Reşit olmayan kişilere ait verilerin işlendiğini fark edersek,
+      ilgili verileri silmek için makul adımları atarız.
+    </p>
+
+    <h2>10. Politika Değişiklikleri</h2>
+    <p>
+      Bu politika zaman zaman güncellenebilir. Güncellenen metin Uygulama/ilgili yayın kanallarında yayımlandığı
+      tarihten itibaren geçerli olur.
+    </p>
+
+    <h2>11. İletişim</h2>
+    <p>
+      Gizlilikle ilgili her türlü soru ve talep için:<br />
+      <strong>[Şirket/İşletme Adı]</strong><br />
+      <strong>[Destek E-postası]</strong><br />
+      <strong>[Açık Adres]</strong>
+    </p>
+  </body>
+</html>
